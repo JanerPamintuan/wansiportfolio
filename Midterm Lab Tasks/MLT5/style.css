@@ -1,0 +1,78 @@
+  body
+       {
+      margin: 0;
+      padding: 0;
+      height: 60%;
+      background-image: url('Technology.gif');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+       }
+
+       h1
+       {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: rgb(48, 68, 133);
+        background-color: rgb(76, 166, 240);
+       }
+      h2
+       {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: rgb(2, 41, 167);
+        background-color: rgb(76, 166, 240);
+       }
+       h3
+       {
+        font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+        color: rgb(2, 37, 131);
+        background-color: rgb(76, 166, 240);
+        font
+       }
+       .section-title1 {
+        color: rgb(2, 41, 167);
+        background-color: rgb(76, 166, 240);
+       }
+       .section-titles1 {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: rgb(2, 41, 167);
+        background-color: rgb(76, 166, 240);
+       }
+       
+       .section-titles2 {
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(0, 0, 0);
+        background-color: rgb(76, 166, 240);
+       }
+       p
+       {
+        font-family: 'Times New Roman';
+        font-style: bold;
+        font-size: medium;
+       
+       }
+
+      #main-container
+       {
+        border: 8px solid rgb(7, 14, 78);
+        background-color: rgb(88, 164, 235);
+        border-radius: 20px;
+        padding: 10px;
+
+       }
+
+       .c1
+       {
+        font-weight: 500;
+        color:pink;
+
+       }
+      .container {
+      width: 80%;
+      margin: auto;
+      }
+
+      header{
+      padding: 10px;
+      margin: 10px 0;
+      background-color: lightgray;
+      }
