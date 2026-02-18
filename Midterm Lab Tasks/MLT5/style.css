@@ -4,6 +4,7 @@
       padding: 0;
       height: 60%;
       background-image: url('Technology.gif');
+      background-attachment: fixed;
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
