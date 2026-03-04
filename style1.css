@@ -15,6 +15,7 @@ body
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         color: rgb(48, 68, 133);
         background-color: rgb(76, 166, 240);
+        border-radius: 20px;
        }
     
     h3
@@ -22,6 +23,7 @@ body
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         color: rgb(48, 68, 133);
         background-color: rgb(76, 166, 240);
+        border-radius: 5px;
        }
 
     p
@@ -35,6 +37,7 @@ body
     {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         color: rgb(241, 241, 245);
         background-color: rgb(76, 166, 240);
+        
 
     }
     
