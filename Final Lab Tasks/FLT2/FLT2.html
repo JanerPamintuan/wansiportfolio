@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Lab Task 2</title>
+
+<style>
+.flex-12a {
+  display: flex;
+}
+.flex-12a .item1 {
+  width: 200px;
+  background: lightblue;
+}
+.flex-12a .item2 {
+  width: 75px;
+  background: pink;
+}
+
+.flex-12b {
+  display: flex;
+}
+.flex-12b .item1 {
+  width: 50px;
+  background: lightblue;
+}
+.flex-12b .item2 {
+  flex: 1;
+  background: pink;
+}
+.flex-12b .item3 {
+  width: 75px;
+  background: lightblue;
+}
+
+.flex-12c {
+  display: flex;
+  justify-content: space-between;
+
+}
+.flex-12c div {
+  background: pink;
+}
+
+.flex-12d {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  border: 1px solid gray;
+}
+.flex-12d div {
+  background: pink;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  gap:7px
+}
+
+ .main {
+  background-color: #95e936; 
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border: 1px solid red;
+}
+
+.header {
+  width: 100%;
+  height: 150px;
+  background: beige;
+  border: 1px solid red;
+}
+
+.left-nav {
+  width: 30%;
+  height: 250px;
+  background: rgb(43, 165, 43);
+  padding: 7px 10px 7px 30px;
+  border: 1px solid red;
+  text-align: left;  
+  padding-left: 7px;
+}
+
+
+.right-nav {
+  width: 70%;
+  height: 250px;
+  background: rgb(43, 165, 43);
+  border: 1px solid red;
+  padding: 7px;
+  display:flex;
+  flex:2;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background: beige;
+  border: 1px solid red;
+}
+
+@media (max-width: 800px) {
+    .left-nav {
+        width: 30%;
+    }
+
+    .right-nav {
+        width: 70%;
+    }
+}
+
+@media (max-width: 400px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .left-nav {
+        width: 100%;
+        height: 150px;
+    }
+    .right-nav {
+        width: 100%;
+        height: 80px;
+    }
+}
+</style>
+</head>
+
+<body>
+<h2><a href="https://janerpamintuan.github.io/wansiportfolio/" target="_blank">PORTFOLIO</a></h2>
+<h3>Finals Task 2. Using CSS Flex Box</h3>
+<h3>Part 1</h3>
+
+<div class="flex-12a">
+  <div class="item1">200px</div>
+  <div class="item2">75px</div>
+</div>
+<br>
+
+<div class="flex-12b">
+  <div class="item1">item1</div>
+  <div class="item2">item2</div>
+  <div class="item3">item3</div>
+</div>
+<br>
+
+<div class="flex-12c">
+  <div>item1</div>
+  <div>item2</div>
+  <div>item3</div>
+  <div>item4</div>
+</div>
+<br>
+
+<div class="flex-12d">
+  <div>item1</div>
+  <div>item2</div>
+</div>
+
+<h3>Part 2</h3>
+
+  <div class="header">This is a header</div>
+
+  <div class="main">
+    <div class="container">
+    <div class="left-nav">Section left-nav</div>
+  <div class="right-nav">Section right-nav</div>
+  </div>
+  </div>
+  <div class="footer">This is a footer</div>
+</div>
+
+</body>
+</html>
