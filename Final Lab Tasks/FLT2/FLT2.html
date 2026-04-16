@@ -84,9 +84,28 @@
   text-align: left;  
   padding-left: 7px;
 }
+.left-navs {
+  width: 30%;
+  height: 250px;
+  background: rgb(43, 165, 43);
+  padding: 7px 10px 7px 30px;
+  border: 1px solid red;
+  text-align: left;  
+  padding-left: 7px;
+}
 
 
 .right-nav {
+  width: 70%;
+  height: 250px;
+  background: rgb(43, 165, 43);
+  border: 1px solid red;
+  padding: 7px;
+  display:flex;
+  flex:2;
+}
+
+.right-navs {
   width: 70%;
   height: 250px;
   background: rgb(43, 165, 43);
@@ -120,11 +139,36 @@
 
     .left-nav {
         width: 100%;
-        height: 150px;
+        height: 250px;
     }
     .right-nav {
         width: 100%;
-        height: 80px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 800px) {
+    .left-navs {
+        width: 30%;
+    }
+
+    .right-navs {
+        width: 70%;
+    }
+}
+
+@media (max-width: 400px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .left-navs {
+        width: 100%;
+        height: 100px;
+    }
+    .right-navs {
+        width: 100%;
+        height: 100px;
     }
 }
 </style>
@@ -174,5 +218,16 @@
   <div class="footer">This is a footer</div>
 </div>
 
+<br>
+<div class="header">This is a header</div>
+
+  <div class="main">
+    <div class="container">
+    <div class="left-navs">Section left-nav</div>
+  <div class="right-navs">Section right-nav</div>
+  </div>
+  </div>
+  <div class="footer">This is a footer</div>
+</div>
 </body>
 </html>
